@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="theme-color" content="#285347" />
+<meta data-react-helment="true" name="og:keywords" content="Hiftie, hiftie, hiftiehukley, HiftieHukley, Hiftie Hukley, developer, web developer, discord">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta data-react-helment="true" property="og:title" content="Heya, I'm Hiftie Hukley" />
+<meta data-react-helment="true" property="og:description" content="I live in India and am currently studying. My main focus is on JavaScript & Typescript, and I am dedicated to creating innovative and user-friendly solutions for clients and communities."
+/>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/main.css" />
+  <script src="./Javascript/main.js"></script>
+
+  <title>Hiftie</title>
+  <link rel="icon" type="image/x-icon" href="./Images/profilepicture.svg">
+</head>
+
+<body>
+  <div class="scroll-blur"></div>
+
+  <ul class="navbar">
+    <hi href="https://hiftie.us" class="navbar-title">Hiftie</hi>
+
+    <li><a href="#hero-section"
+        onclick="event.preventDefault(); document.getElementById('hero-section').scrollIntoView();">Home</a></li>
+    <li><a href="#socials" onclick="smoothScroll(event, 'socials')">Socials</a></li>
+    <li><a href="#projects" onclick="smoothScroll(event, 'projects')">Projects</a></li>
+
+
+    <a href="https://discord.gg/hiftie" class="workshop-button">Workshop</a>
+  </ul>
+
+  <div class="hero-section">
+    <h1 class="hero-title">
+      Bringing Ideas to Life With My Development and Designing Skills
+    </h1>
+    <p class="hero-subtitle">
+      I have experience in creating websites and discord bot applications. My projetcs are mainly written in javascript or typescript. Apart from this, I derive great enjoyment from the fusion of music and the natural world.
+    </p>
+
+    <a href="#socials" onclick="smoothScroll(event, 'socials')">
+      <img class="hero-scroll" src="./Images/Scroll.svg" alt="Scroll Down">
+    </a>
+
+  </div>
+  <img class="hero-image" src="./Images/leaves.svg" draggable="false" />
+
+  <div class="bottom-hero" id="socials">
+    <h1 class="bottom-hero-title" draggable="false">
+      Hey there!<br />You know me as Hiftie Hukley.
+    </h1>
+    <p class="bottom-hero-subtitle" draggable="false">
+      I live in India and am currently studying. My main focus is on
+      JavaScript, and I am dedicated to creating innovative and user-friendly
+      solutions for clients and communities. I am also involved in a bakery
+      project, which I enjoy as it allows me to connect with diverse  
+      individuals. Additionally, I am passionate about nature and enjoy
+      researching different plants and their features.
+    </p>
+  </div>
+
+  <ui class="socials" id="socialsa">
+    <li><a href="https://www.instagram.com/hiftiehukley" target="_blank"><img src="./Images/Instagram.svg"
+          draggable="false" /></a></li>
+    <li><a href="https://www.youtube.com/@hiftiehukley" target="_blank"><img src="./Images/Youtube.svg"
+          draggable="false" /></a></li>
+    <li><a href="https://www.spotify.com/your_account" target="_blank"><img src="./Images/spotify.svg"
+          draggable="false" /></a></li>
+    <li><a href="https://www.discord.gg/hiftie" target="_blank"><img src="./Images/discord.svg" draggable="false" /></a>
+    </li>
+    <li><a href="https://www.github.com/hiftiehukley" target="_blank"><img src="./Images/github.svg"
+          draggable="false" /></a></li>
+    <li><a href="https://www.twitter.com/hiftiehukley" target="_blank"><img src="./Images/twitter.svg" draggable="false" /></a></li>
+  </ui>
+
+  <div class="projects" id="projects">
+    <div class="container">
+      <h1 class="projects-title">Have a look at my projects</h1>
+      <div class="projects-content">
+        <div class="obscura">
+          <div class="project-header">
+            <div><img class="obscura-avatar" src="./Images/obscura.svg" /></div>
+            <h1 class="obscura-heading">Obscura</h1>
+          </div>
+          <p class="obscura-about">
+            An advanced discord bot that lets you get detailed information about discord servers, invites, channels, roles, users & many more!
+          </p>
+        </div>
+
+        <div class="lumi">
+          <div class="project-header">
+            <img class="lumi-avatar" src="./Images/Lumi.png" />
+            <h1 class="lumi-heading">Lumi</h1>
+          </div>
+          <p class="lumi-about">
+            With powerful utility functions, Lumi enhances the flow to create
+            a an enjoyable experience for the Xavier's High community.
+          </p>
+        </div>
+
+        <div class="mitten">
+          <div class="project-header">
+            <img class="mitten-avatar" src="./Images/koopa.png" />
+            <h1 class="mitten-heading">Koopa</h1>
+          </div>
+          <p class="mitten-about">
+            The most enchanting and irresistibly cute Red panda named Koopa, with its fluffy fur and sparkling eyes, takes
+            meticulous care of Hiftie's Workshop.
+          </p>
+        </div>
+
+        <div class="netcord-articles">
+          <div class="project-header">
+            <img class="netcord-articles-avatar" src="./Images/netcord-articles.svg" />
+            <h1 class="netcord-articles-heading">Netcord Articles</h1>
+          </div>
+          <p class="netcord-articles-about">
+            Stay ahead of the game with Netcord articles delivered straight to your server. Be the first to read and
+            receive live updates in real-time.
+          </p>
+        </div>
+      </div>
+
+      <div class="bottom-section">
+        <h1 class="bottom-heading">Sounds Good? Get One for Your Server.</h1>
+        <p class="bottom-paragraph">
+          
+Elevate the potential of your Discord server to new heights by incorporating a bespoke bot<br>specifically designed to cater to your distinct requirements.
+        </p>
+        <a href="https://discord.com/users/886511660611805205" class="contact-button">Let's Talk</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
