@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #002B20;
+}
+
+.container {
+    background-color: #003227;
+    width: 955px;
+    height: 500px;
+    border-radius: 28px;
+}
+
+.your-name {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 55px;
+    margin-left: 70px;
+    user-select: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.your-name-placeholder {
+    background-color: #285347;
+    stroke: none;
+    border: none;
+    margin-left: 70px;
+    width: 822px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: -15px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.your-mail {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    user-select: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.your-mail-placeholder {
+    background-color: #285347;
+    stroke: none;
+    border: none;
+    margin-left: 70px;
+    width: 822px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: -15px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.message {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-top: 30px;
+    margin-left: 70px;
+    user-select: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.message-placeholder {
+    background-color: #285347;
+    stroke: none;
+    border: none;
+    margin-left: 70px;
+    width: 822px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: -15px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    resize: none;
+}
+
+.message-placeholder::-webkit-scrollbar {
+    width: 0px;
+}
+
+.message-placeholder::-webkit-scrollbar-thumb {
+    background-color: #285347;
+}
+
+
+.send-button {
+    background-color: #285347;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    stroke: none;
+    top: 30px;
+    right: 75px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: "Poppins", sans-serif;
+    transition: opacity 0.3s ease;
+  }
+  
+  .send-button:hover {
+    opacity: 80%;
+  }
